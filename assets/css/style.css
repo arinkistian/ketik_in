@@ -877,7 +877,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -889,7 +889,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1212,7 +1212,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1224,7 +1224,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1402,7 +1402,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1414,7 +1414,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1523,7 +1523,7 @@ Blog
 
 .blog:before {
   content: '';
-  background-color: #2a2a2a;
+  background-color: #fff;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1692,7 +1692,7 @@ contact
 
 
 form#contact:before {
-  background-color: #2a2a2a;
+  background-color: #fff;
   position: absolute;
   right: 0;
   top: 0;
@@ -1711,7 +1711,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-color: #2a2a2a;
+  background-color: transparent;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1841,7 +1841,7 @@ Footer Style
 */
 
 footer {
-  background-color: #2a2a2a;
+  background-color: #4da6e7;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1857,6 +1857,7 @@ footer p {
 footer p a {
   color: #fff;
   transition: all .5s;
+  /* font-size: larger; */
 }
 
 /* 
